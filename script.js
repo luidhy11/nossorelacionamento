@@ -13,7 +13,7 @@ function startCounter() {
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
         document.getElementById('counter').innerText =
-            `${years} anos, ${days} dias, ${hours} horas, ${minutes} minutos, ${seconds} segundos`;
+            `${years} anos, ${days} dias, ${hours} h, ${minutes} m, ${seconds} s`;
     }
 
     setInterval(updateCounter, 1000);
