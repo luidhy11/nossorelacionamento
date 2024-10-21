@@ -21,9 +21,9 @@ function startCounter() {
 
 // Função para o carrossel de fotos
 const photos = [
-    "images/foto1.jpg",
-    "images/foto2.jpg",
-    "images/foto3.jpg",
+    "foto1.jpg",
+    "foto2.jpg",
+    "foto3.jpg",
     // Adicione mais fotos aqui, se necessário
 ];
 
