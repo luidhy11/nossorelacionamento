@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.photo-gallery {
+    margin: 20px 0;
+}
+
+.carousel {
+    position: relative;
+    display: inline-block;
+}
+
+.carousel img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.music {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+/* Estilo para o botão de ativar som */
+#unmute-btn {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#unmute-btn:active {
+    background-color: #ff1493;
+}
+
+.custom-text {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.custom-text h3 {
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.custom-text p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilização do coração pulsante */
+.heart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 40px auto; /* Aumenta a margem superior e centraliza */
+    background-color: #ff69b4;
+    transform: rotate(-45deg);
+    animation: pulse 1s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    left: 50px;
+    top: 0;
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(-45deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-45deg);
+    }
+    100% {
+        transform: scale(1) rotate(-45deg);
+    }
+}
+
+/* Estilo para o texto, para garantir espaçamento adequado */
+.custom-text p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px; /* Adiciona um espaço antes do coração */
+}
