@@ -33,7 +33,6 @@ const photos = [
     "foto10.jpg",
     "foto11.jpg",
     "foto12.jpg",
-    "foto13.png",
     // Adicione mais fotos aqui, se necessário
 ];
 
